@@ -31,5 +31,6 @@ public class FirstClass {
                 System.out.println(i+"");
             }
         System.out.println("\nDone.");
+        System.out.println("isn't that nifty?");
     }
 }

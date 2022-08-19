@@ -21,9 +21,15 @@ public class FirstClass {
             System.out.println("Now, with Shemp, there are "+numStooges+" stooges.");
 
             int a = 0;
-            while (a<10)
+            while (a<100)
             {
                 System.out.print(a + " --> ");
+                if (a == 32)
+                {
+                    System.out.println("It's 32.");
+//                    break;
+                    continue;
+                }
                 a = a + 2;
                 System.out.println(a);
             }
